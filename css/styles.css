@@ -1,0 +1,215 @@
+body{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.profile-img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 5%;
+}
+p{
+  font-size: 1.2rem;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 0.5rem;
+  border-color: #e23e57;
+  width: 30%;
+  margin: 7% auto;
+}
+.logo-text{
+  color: #fff;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 3rem;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+}
+
+.top-section{
+  position: relative;
+  margin: 0;
+}
+
+.mid-section{
+  padding: 2% 15%;
+  position: relative;
+}
+
+
+.tempting-img{
+  height: 250px;
+  width: 500px;
+  padding: 0;
+}
+
+.carousel-img{
+  height: 250px;
+  width: 100%;
+  padding: 5% 3%;
+}
+/* Delicacy */
+
+.delicacy-img{
+  height: 250px;
+  width: 300px;
+}
+
+.dropdown{
+  margin: 5px auto 25px;
+}
+
+.btn{
+  background-color: #e23e57;
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  color: white;
+}
+
+.dropdown-menu{
+  text-align: center;
+  width: 300px;
+  font-size: 1.2rem;
+}
+
+.dropdown-item:hover{
+  color:  #e23e57;
+}
+
+/* FOOTER */
+footer{
+  padding-top: 50px;
+  position: relative;
+}
+#contact .container-fluid{
+  position: relative;
+  padding: 7% 15%;
+  margin-right: 0;
+  background-color:  #e23e57;
+  color: white;
+  text-align: center;
+}
+.footer-box{
+  position: relative;
+  top: 30px;
+  padding: 200px auto;
+}
+.btn-social{
+  background-color: #e23e57;
+  color: white;
+}
+
+.btn-text{
+    color: white;
+}
+.btn-text:hover{
+  color: black;
+}
+
+@media (min-width:576px) {
+  body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2rem;
+  }
+.tempting-img{
+border: 0;
+height: 500px;
+width: 100%;
+}
+
+.logo-text{
+  color: #fff;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 4rem;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 32%;
+  left: 32%;
+}
+h1{
+  font-size: 5rem;
+}
+.profile-img{
+  height: 358px;
+  width: 358px;
+  margin-bottom: 5%;
+}
+p{
+  font-size: 2rem;
+}
+hr{
+  border-style: dotted none none none;
+  border-width: 0.8rem;
+  border-color: #e23e57;
+  width: 30%;
+  margin: 3% auto 0;
+}
+.dish-images{
+  position: relative;
+  top: 0;
+}
+.carousel-img{
+  height:700px;
+  width: 100%;
+}
+.carousel-indicators{
+  padding-bottom: 10%;
+}
+
+/* Delicacy */
+
+.delicacy-img{
+  height: 350px;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.dropdown{
+  margin: 0 auto 40px;
+}
+.btn{
+  background-color: #e23e57;
+  font-family: 'Montserrat', sans-serif;
+  width: 450px;
+  color: white;
+}
+
+.dropdown-menu{
+  text-align: center;
+  width: 450px;
+  font-size: 1.5rem;
+}
+/* FOOTER */
+footer{
+  padding-top: 100px;
+  position: relative;
+}
+.footer-container{
+  position: relative;
+  background-color:  #e23e57;
+  color: white;
+  padding: 200px auto;
+  text-align: center;
+}
+
+.btn-social{
+  background-color: #e23e57;
+  color: white;
+}
+
+.btn-text{
+    color: white;
+}
+.btn-text:hover{
+  color: black;
+}
+}
