@@ -113,6 +113,11 @@ ul li::before {
   padding-top: 2%;
   padding-left: 10%;
 }
+
+.order-para{
+  padding-left: 5%;
+}
+
 /* FOOTER */
 footer{
   padding-top: 50px;
